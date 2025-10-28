@@ -7,18 +7,14 @@
 
 import UIKit
 
-protocol BaseTableCell {
+protocol CCBaseTableCell {
     func getCellType()->TableCellType
 }
 
-protocol CellActionListner {
+protocol CCCellActionListner {
     func onCellAction(actionType : CellAction, position : Int);
 }
 
-protocol BaseCollectionCell{
-    func getCellType()->CollectionCellType
-}
-
-protocol GetCellData {
+protocol CCGetCellData {
     func getCellData(data : String);
 }

@@ -8,5 +8,10 @@ import Foundation
 
 enum TableCellType : Int {
     case DRAWER_ITEM
+    case WEATHER_FORECAST
+}
+
+enum CellAction : Int{
+    case SAMPLE
 }
 
